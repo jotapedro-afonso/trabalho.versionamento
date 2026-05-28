@@ -1,23 +1,28 @@
-# 🚀 [Nome do Projeto]
+# 🚀 [CADASTRAmais]
 
-> 💡 Uma frase curta, clara e de impacto que resume o que o projeto faz.
+> 💡 Projeto de Cadastro de Tarefas.
+
+---
+## 📋 Requisitos Funcionais:
+
+* A tela deve mostrar ao usuário os campos de preenchimento do formulário após a inicialização; 
+* A tela após preenchimento dos campos deve apresentar o botão de recomeçar;
+* O formulario deve apresentar o botão de exclusão de tarefa;
 
 ---
 
-## 📋 Índice
+## 📋 Requisitos não Funcionais:
 
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [🛠️ Tecnologias](#️-tecnologias)
-* [🚀 Como Executar](#-como-executar)
-* [🎯 Funcionalidades](#-funcionalidades)
-* [👤 Autores](#-autor)
-* [📝 Licença](#-licença)
+* A tela inicial deve carregar o formulário com os campos de preenchimento em até 5 segundos; 
+* O sistema deve validar a adição da tarefa individualmente em até 5 segundos;
+* A exclusão de tarefas deve ser validada em até 5 segundos;
 
 ---
 
 ## 💻 Sobre o Projeto
 
-Uma breve descrição contextualizando o problema que o projeto resolve e o seu propósito principal.
+Este projeto irá permitir que o usuário possa listar 10 tarefas, com intuito de quando alcançar o número máximo(10),
+ele possa recomeçar uma nova lista.
 
 ---
 
@@ -25,27 +30,15 @@ Uma breve descrição contextualizando o problema que o projeto resolve e o seu 
 
 As principais ferramentas, e linguagens utilizadas:
 
-* **[Linguagem]** — [versão / Breve motivo do uso]
+  Ferramentas:
+*Visual Studio Code;
+*GitHub;
+
+  Linguagens:
+*JavaScript;
+*CSS;
+*Html;
 
 ---
 
-## 🚀 Como Executar
-
-### 🔧 Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina:
-* [Requisito 1, ex: Git]
-* [Requisito 2, ex: Node.js]
-
-### 🏃‍♂️ Passo a Passo
-```bash
-# 1. Clone este repositório
-$ git clone <URL_DO_REPOSITORIO>
-
-# 2. Acesse a pasta do projeto
-$ cd <NOME_DA_PASTA>
-
-# 3. Instale as dependências
-$ [comando_de_instalação]
-
-# 4. Execute a aplicação
-$ [comando_de_execução]
+#########==============================================#########
