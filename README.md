@@ -1,4 +1,4 @@
-# 🚀 [CADASTRAmais]
+# 🚀 [CADASTRA.+]
 
 > 💡 Projeto de Cadastro de Tarefas.
 
