@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="task.svg" type="image/x-icon">
     <title>FrontEnd - HTML</title>
     <script defer src="abrir_list.js"></script>
+    <script defer src="tarefa.js"></script>
 </head>
 
 <body>
@@ -27,10 +28,13 @@
 
     <div class="container-cadastro-to-do-list">
 
+        <input type="text" id="tarefa">
+
+        <button onclick="adicionar()">Adicionar</button>
+            <ul id="lista"></ul>
     </div>
 
     <button class="btn-to-do-list">Começar</button>
-
 
 </body>
 
