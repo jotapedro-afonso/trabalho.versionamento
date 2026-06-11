@@ -37,15 +37,32 @@ body {
 }
 
 .container-cadastro-to-do-list {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     border: 2px solid black;
     border-radius: 10px;
     display: none;
+    padding: 10px;
+    overflow: none;
+    background-color: #fff;
 }
 
 .container-cadastro-to-do-list.active {
-    display: block;
+    display:flex;
+    flex-direction: column;
+}
+
+.add {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    background-color: green;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn-to-do-list {
@@ -96,4 +113,5 @@ button {
     margin-bottom: 8px;
     padding: 8px;
     border: 1px solid black;
+    border-radius: 4px;
 }
